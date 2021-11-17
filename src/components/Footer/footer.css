@@ -1,0 +1,5 @@
+footer {
+    color: white;
+    background-color: hsla(50, 33%, 25%, .75); /* need to set image */
+    background-image: url(public/assets/pics/istockphoto-1287065554-170667a.jpeg);
+  }
