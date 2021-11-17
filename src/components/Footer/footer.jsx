@@ -1,15 +1,5 @@
-import React, from 'react';
-import './Footer.css';
-
-export default class Footer extends Component {
-    constructor(props) {
-      super(props);
-      this.state = {
-        currentYear: new Date().getFullYear(),
-      }
-    }
-   
-}
+import React from 'react';
+import './footer.css';
 
 // footer code from DCC Library Project
 const Footer = () => {
@@ -20,4 +10,15 @@ const Footer = () => {
     );
 }
 
-export default footer;
+// export default class Footer extends Component {
+//     constructor(props) {
+//       super(props);
+//       this.state = {
+//         currentYear: new Date().getFullYear(),
+//       }
+//     }
+   
+// }
+
+
+export default Footer;

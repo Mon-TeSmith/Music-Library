@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
-// import reactDom from 'react-dom';
-import “bootstrap/dist/css/bootstrap.css";
-// import Axios from 'axios';
-// import App from './App';
+import React from "react";
+import reactDom from "react-dom";
+import App from "./components/App";
+import 'bootstrap/dist/css/bootstrap.css';
 
 
-
+reactDom.render(<App />, document.getElementById("root"));
