@@ -3,8 +3,9 @@ import "./App.css"
 import axios from "axios";
 import SearchBar from './SearchBar/searchBar';
 import MusicTable from './MusicTable/musicTable';
-import Navigation from './Navigation/navigation';
+import Navbar from 'react-bootstrap/Navbar'
 import Footer from './Footer/footer';
+
 class App extends Component { 
     constructor(props) {
         super(props);
@@ -36,8 +37,8 @@ class App extends Component {
         this.setState({
             music: response.data
         })
-
     }
+    
     goToPreviousBook = () => {
          let tempBookNumber = this.state.bookNumber;
          tempBookNumber--;
@@ -66,7 +67,7 @@ class App extends Component {
                 {/* <Navigation/> */}
                 {/* <SearchBar /> */}
                 <MusicTable  music={this.state.music}/>
-                {/* <Footer /> */}
+                <Footer /> 
             </div>
         ) 
     }

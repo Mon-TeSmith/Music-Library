@@ -1,29 +1,30 @@
-/* #title {
+ #title {
     text-align: center;
     font-family: arial, sans-serif;
   }
   
-  #students {
+  #tables {
     text-align: center;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    border: 3px solid black;
-    width: 100%;
+    border-collapse: separate;
+    border: 3px solid rgb(41, 35, 35);
+    width: 80%;
+  }
+
+  
+  #tables td, #tables th, #tables tr {
+    border: 2px solid black;
+    padding: 3px;
   }
   
-  #students td, #students th {
-    border: 1px solid black;
-    padding: 8px;
-  }
+  #tables tr:nth-child(even){background-color: whitesmoke;}
   
-  #students tr:nth-child(even){background-color: whitesmoke;}
+  #tables tr:hover {background-color: rgb(162, , 151);}
   
-  #students tr:hover {background-color: whitesmoke;}
-  
-  #students th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: center;
-    background-color: whitesmoke);
-    color: white;
-  } */
+  #tables th {
+    padding-top: length;
+    padding-bottom: length;
+    text-align: start;
+    background-color: whitesmoke;
+    color: rgba(216, 119, 83, 0.776);
+  } 
