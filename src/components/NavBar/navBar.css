@@ -1,1 +1,11 @@
- 
+.navBar-nav {
+    background-color: lightslategray;
+    width: auto;
+    
+}
+
+h1 {
+    padding-bottom: 0.2em;
+    padding-left: 1em;
+
+} 

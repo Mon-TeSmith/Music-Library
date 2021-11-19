@@ -3,8 +3,9 @@ import "./App.css"
 import axios from "axios";
 import SearchBar from './SearchBar/searchBar';
 import MusicTable from './MusicTable/musicTable';
-import Navbar from 'react-bootstrap/Navbar'
+import Navbar from './NavBar/navBar';
 import Footer from './Footer/footer';
+import NavBar from "./NavBar/navBar";
 
 class App extends Component { 
     constructor(props) {
@@ -64,8 +65,8 @@ class App extends Component {
     render() {
         return (
             <div className="container-fluid"> 
-                {/* <Navigation/> */}
-                {/* <SearchBar /> */}
+                <NavBar />
+                {/* <SearchBar/> */}
                 <MusicTable  music={this.state.music}/>
                 <Footer /> 
             </div>

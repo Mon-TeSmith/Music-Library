@@ -5,14 +5,13 @@
   
   #tables {
     text-align: center;
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-family: "Verdana", Arial, Helvetica, sans-serif;
     border-collapse: separate;
     border: 3px solid rgb(41, 35, 35);
-    width: 80%;
+    width: 100%;
   }
 
-  
-  #tables td, #tables th, #tables tr {
+  #tables td, #tables th {
     border: 2px solid black;
     padding: 3px;
   }
