@@ -13,6 +13,10 @@ center {
     transform: translate(-50%, -50%);
 }
 
+.background {
+    background-image: url("/background.jpg");
+ }
+
 row-space {
     margin-bottom: App;
 }
